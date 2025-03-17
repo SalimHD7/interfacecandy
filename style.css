@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px; /* Adjust the margin as needed */
+    margin: 0 10px; 
 }
 
 nav ul li a {
@@ -34,4 +34,34 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #111;
+}
+
+header {
+    margin-left: 300px; 
+    text-align: left;
+}
+
+header h1 {
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 2.5em;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 1.2em; 
+}
+nav img.nav-logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+.header-image {
+    display: block;
+    margin: 20px auto; /* Center the image and add some margin */
+    max-width: 100%; /* Ensure the image is responsive */
+    height: 100px; /* Maintain the aspect ratio */
 }
