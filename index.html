@@ -7,20 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <img src="/img/Kit-Kat-Logo.png" alt="Logo" class="nav-logo">
-        <ul>
-            <li><a href="#Producten">Producten</a></li>
-            <li><a href="#about">Over ons</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#Home">Home</a></li>
-        </ul>
-    </nav>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="kitkat-bar"></div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
 
-    <header>
-        <h1>KitKat</h1>
-        <p>Have a break, have a KitKat</p>
-    </header>
-    <img src="/img/kitkatimg.png" alt="Header Image" class="header-image">
+    <!-- Main Content -->
+    <div class="content" style="display: none;">
+        <nav>
+            <img src="img/Kit-Kat-Logo.png" alt="KitKat Logo" class="nav-logo">
+            <ul>
+                <li><a href="#Producten">Producten</a></li>
+                <li><a href="#about">Over ons</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><input type="text" placeholder="Zoeken..." class="search-bar"></li>
+            </ul>
+        </nav>
+
+        <header>
+            <div class="product-layout">
+                <!-- Main Product (Left) -->
+                <div class="main-product">
+                    <img src="img/kitkatimg.png" alt="Main KitKat Product" class="product-image">
+                    <div class="product-label">BESTSELLER</div>
+                </div>
+                
+                <!-- Top 3 Products (Right) -->
+                <div class="top-products">
+                    <h1>KitKat</h1>
+                    <h2>TOP 3 producten</h2>
+                    
+                    <div class="product-grid">
+                        <div class="product-box">
+                            <img src="img/kitkatproduct1.png" alt="KitKat Product 1" class="product-image">
+                            <div class="product-name">KitKat Chunky</div>
+                        </div>
+                        <div class="product-box">
+                            <img src="img/kitkatproduct2.webp" alt="KitKat Product 2" class="product-image">
+                            <div class="product-name">KitKat Dark</div>
+                        </div>
+                        <div class="product-box">
+                            <img src="img/kitkatproduct3.png" alt="KitKat Product 3" class="product-image">
+                            <div class="product-name">KitKat White</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
